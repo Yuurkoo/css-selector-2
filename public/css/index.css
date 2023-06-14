@@ -1,1 +1,89 @@
+.lesson-four-task-one > button:hover{
+    color: red;
+    background-color: yellow;
+}
 
+.lesson-four-task-two > .link:hover{
+    background-color: green;
+    color: white;
+}
+
+.lesson-four-task-three > .link:visited{
+    color:yellow;
+  }
+
+  .lesson-four-task-four > .link:active{
+    color:red;
+  }
+
+  .lesson-four-task-five > button:active{
+    background-color: blue;
+  }
+
+  .lesson-four-task-six > button:focus{
+    color: orange;
+    background-color:black;
+  }
+
+  .lesson-four-task-seven > #target:target{
+    background-color:green;
+    color: white;
+  }
+
+  .lesson-four-task-eight > input[type='checkbox']:checked ~ div{
+    background-color: blue;
+    color: white;
+  }
+
+  p:lang(uk){
+    color:blue;
+  }
+
+ .form-group > input:enabled{
+    background-color: red;
+    color: yellow;
+  }
+
+  .lesson-four-task-eleven > input:disabled{
+    background-color: yellow;
+  }
+
+  .lesson-four-task-twelve > input:read-write{
+    background-color: yellow;
+  }
+
+  .lesson-four-task-thirteen > input:read-only{
+    background-color: yellow;
+  }
+
+  .lesson-four-task-fourteen > input:valid{
+    background-color: green;
+  }
+  .lesson-four-task-fourteen > input:invalid{
+    background-color: red;
+  }
+
+  textarea:optional{
+    background-color: red;
+  }
+
+   input[type="number"]:in-range {
+    color: green;
+  }
+
+  input[type="number"]:out-of-range {
+    color: red;
+  }
+
+input:placeholder-shown{
+    background-color: red;
+}
+
+.lesson-four-task-nineteen > .btn-group > button:focus-within{
+    color: aliceblue;
+    background-color: yellow;
+}
+
+form input:invalid {
+    background-color: red;
+  }
